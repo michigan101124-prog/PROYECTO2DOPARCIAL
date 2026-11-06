@@ -164,3 +164,78 @@ nav a:hover {
   background-color: #0b4fa3;
   color: #ffffff;
 }
+
+.dos-columnas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.columna {
+  width: 48%;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border: 2px solid #dbe5f3;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tercio {
+  width: 31%;
+}
+
+.cuarto {
+  width: 23%;
+}
+
+.tarjeta img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.oferta {
+  background-color: #f59e0b;
+  text-align: center;
+}
+
+.oferta h2 {
+  color: #222222;
+}
+
+
+.caja-tabla {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #0b4fa3;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #0b4fa3;
+  color: #ffffff;
+}
+
