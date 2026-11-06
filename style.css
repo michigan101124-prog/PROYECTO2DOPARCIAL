@@ -128,3 +128,39 @@ nav a:hover {
   color: #f59e0b;
 }
 
+.inicio {
+  background-color: #0b4fa3;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.inicio p {
+  max-width: 800px;
+  margin: 0 auto 25px auto;
+  font-size: 20px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.boton-naranja {
+  background-color: #f59e0b;
+  color: #222222;
+}
+
+.boton-blanco {
+  background-color: #ffffff;
+  color: #0b4fa3;
+}
+
+.boton-azul {
+  background-color: #0b4fa3;
+  color: #ffffff;
+}
